@@ -1,14 +1,26 @@
 from math import pi,e,sqrt
-n_interval = 10
-n = 50
-l = []
-for i in range(n):
-    l.append(float(input()))
 
+n = 50
+l = [float(input()) for i in range(n)]
+n_interval = 10
+
+t = sum(l)/n #povprecna
 mi = min(l)
 mx = max(l)
-t = sum(l)/n #povprecna
-o = max(mx-t,t-mi) #napaka
+
+def get_sigma():
+    tmpo = 0
+    # tmpl = []
+    # for i in l:
+    #     tmpl.append((abs(i-t),i))
+    # tmpl.sort()
+
+    for i in l:#tmpl[:(n-(n+2)//3)]:
+        tmpo += (i-t)**2
+    return sqrt(tmpo/n)
+
+
+o = get_sigma()
 
 
 dx = (mx-mi)/n_interval

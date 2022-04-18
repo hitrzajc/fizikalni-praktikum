@@ -1,0 +1,146 @@
+\documentclass{article}
+
+%opening
+\title{Vaja 44 - SILA NA VODNIK V MAGNETNEM POLJU}
+\author{Jure Kozamernik}
+\usepackage{mathtools}
+\usepackage{amsmath, amsfonts,amssymb, amsthm}
+\usepackage[utf8]{inputenc}
+\usepackage{siunitx,booktabs}
+\usepackage[skip=0.333\baselineskip]{caption}
+\usepackage{tabularx}
+\newcolumntype{C}{>{\centering\arraybackslash $}X<{$}}
+\usepackage[slovene]{babel}
+\usepackage{color}
+\usepackage{graphicx}
+\usepackage{subfigure}
+\usepackage{gensymb}
+\usepackage{geometry}
+
+
+
+\begin{document}
+
+\maketitle
+
+%   Prva naloga
+
+\section{Uvod}
+
+Na vodnik, ki leži v homogenem magetnem polju pravokotno na smer silnic, deluje sila, ki je sorazmerna s tokom I skozi vodnik in z dolžino $l$ vodnika v polju:
+\begin{equation}
+    F = BIl.
+\end{equation}
+
+Sorazmernostni koeficient $B$ je gostota magnetnega polja. Magnetni pretok $\phi_m$ okvir, ki je pravokoten na silnicah, je v homogenem polju enak produktu: 
+\begin{equation}
+   \phi_m = BS,
+\end{equation}
+
+kjer je S ploščina okvirja. Enota $B$ je $T(esla)=Vs/{m^2}$, enota $\phi_m$ pa Vs.\\
+
+\subsection{Potrebščine}
+1. Občutljiva tehtnica z magnetom,\\
+2. stojalo s prečko,\\
+3. usmernik 20 V, 4 A,\\
+4. ampermeter.\\
+5. reostat,
+6. 4 žice.
+
+\subsection{Naloga}
+1. S tehtanjem pokaži, da je sila na vodnik sorazmerna s tokom.\\
+2. Določi gostoto magnetnega polja in magnetni pretok med poloma magneta!\\
+
+\subsection{Vprašanja}
+1. Kako je sila na vodnik odvisna od kota, ki ga oklepata smeri polja in toka? Kakšna je smer sile?\\
+2. Tehtnica silo preračuna v maso. Kaj bi taka tehtnica pokazala, če bi poskus izvajali npr. na Luni, kjer je g = 1,6 m/$s^2$ ?\\
+%   Od tu naprej vpisuješ podatke
+
+\subsection{Meritve}\\
+\begin{tabularx}{\textwidth}{@{\rule[-2ex]{0pt}{5ex}}|*{19}{C|}}
+\hline
+i & I [mA] & m [g] & -I [mA] & -m [g]\\
+\hline \hline
+0 & 1,350 & 0,99 & 0,00 & -0,15 \\
+\hline
+1 & 1,276 & 0,92 & 0,043 & -0,18 \\
+\hline
+2 & 1,129 & 0,79 & 0,113 &  -0,25\\
+\hline
+3 & 1,033 & 0,70 & 0,220 & -0,34 \\
+\hline
+4 & 0,900 & 0,58 & 0,320 & -0,42 \\
+\hline
+5 & 0,817 & 0,51 & 0,420 & -0,51 \\
+\hline
+6 & 0,715 & 0,42 & 0,510 & -0,59 \\
+\hline
+7 & 0,605 & 0,33 & 0,621 & -0,68 \\
+\hline
+8 & 0,497 & 0,23 & 0,716 & -0,76 \\
+\hline
+9 & 0,395 & 0,15 & 0,814 & -0,85 \\
+\hline
+10 & 0,313 & 0,08 & 0,913 & -0,93 \\
+\hline
+11 & 0,208 & 0,00 & 1,058 & -01,11 \\
+\hline
+12 & / & / & 1,121 & -1,2 \\
+\hline
+13 & / & / & 1,239 & -1,32 \\
+\hline
+14 & / & / & 1,367 & -1,45\\
+\hline
+    \end{tabularx}
+    
+    
+%       Komentar - meritve in analiza
+\subsection{Obdelava meritev}\\
+
+Na grafu 1a so predstavljene meritve iz tabele 1a, skupaj s premico, ki se
+najbolje prilega meritvam in ima strmino $k_1$ = 9.94 · $10^−4$ g/mA. Na grafu 1b pa so predstavljene meritve iz tabele 1b, premica, ki se najbolje prilega tem meritvam pa ima strmino $k_2$ = −9.46 · $10^−4$ g/mA..\\
+
+Odvisnost med tokom in maso ustreza tudi enačbi (1) iz česar sledi:
+\begin{equation}
+    m =\frac{BI}{g}l, \qquad k =\frac{BI}{g}l  
+\end{equation}
+
+Gostoto magnetnega polja lahko torej izračunamo s pomočjo enačbe (4), pri čemer je \newline
+$k = \frac{k_1 − k_2}{2} = 9,046 · 10^−4 g/mA$.
+\begin{equation}
+    B = \frac{gk}{l}= (0,44 \pm 0.01)T  
+\end{equation}\\
+
+Magnetni pretok pa izračunamo po enačbi (2) pri čemer je S presek magneta.\\
+
+\begin{equation}
+    \phi_m = BS = (8,87 \times 10^{-4} \pm 0.2 \times 10^{-4} ) Vs
+\end{equation}
+
+\begin{figure}[h]
+\begin{center}
+	\subfigure[tok v eno smer]{\includegraphics[width=12cm]{Vaja 44-47/Vaja 44.1 tok normalno.jpg}}
+	\subfigure[tok v drugo smer]{\includegraphics[width=12cm]{Vaja 44-47/Vaja 44.2 tok v drugo smer.jpg}}
+\caption{grafa mase m v odvisnosti od toka $I$}
+\end{center}
+\end{figure}
+
+%           Analiza rezultatov
+\section{Analiza rezultatov}
+S tehtanjem smo uspešno pokazali, da je sila na vodnik v magnetnem polju
+sorazmerna s tokom, pri čemer zamenjava smeri toka skozi vodnik spremeni
+smer sile, ki deluje na vodnik v magnetnem polju. Vektorsko povezavo med
+silo, tokom in gostoto magnetnega polja opisuje enačba (6).
+\begin{equation}
+    F = B × Il  
+\end{equation}
+
+Enačba (7) pa prikazuje identično odvisnost, le da vektorsko povezavo nadomesti $\phi$, ki označuje kot med smerjo toka in smerjo magnetnega polja.
+\begin{equation}
+    F = BIl\sin \phi  
+\end{equation}
+
+Če bi poskus izvajali na Luni, bi bili rezultati popolnoma enaki. Tehtnica bi še zmeraj prikazovala enako maso. Kljub temu da je gravitacijski pospešek na Luni manjši bi v enačbi (4) še zmeraj morali vzeti g = 9.81 m/$s^2$ , saj dejansko ne gre za silo teže ampak samo za faktor, ki ga tehtnica uporabi za preračun iz sile v maso.
+
+
+\end{document}

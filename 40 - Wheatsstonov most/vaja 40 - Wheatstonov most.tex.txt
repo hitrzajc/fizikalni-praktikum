@@ -1,0 +1,153 @@
+\documentclass{article}
+
+%opening
+\title{Vaja 40 - Wheatstonov most}
+\author{Jure Kozamernik}
+\date{March 27, 2022}
+\usepackage{amsmath, amsfonts,amssymb, amsthm}
+\usepackage{braket}
+\usepackage[margin=1.0in]{geometry}
+\newcommand{\tr}{intercal}
+\newcommand{\bd}{textbf}
+\newcommand{\ep}{epsilon}
+
+\begin{document}
+
+\maketitle
+
+
+
+\section{Uvod}
+Zvezo med pritisnjeno napetostjo $U$ in električnim tokom $I$, ki te\v ce skozi
+prevodnik, opisuje Ohmov zakon. Faktor, ki povezuje napetost in tok se
+imenuje upor $R$ in ima enoto $\Omega$ (Ohm).
+
+\begin{equation}
+R=\frac{U}{I}
+\end{equation}
+
+Upor je odvisen od dol\v zine $l$ in preseka S prevodnika ter od specifi\v cnega
+upora $\zeta$. Za upornike s konstantnim presekom velja ena\v cba (2).\\
+
+\begin{equation}
+R=\frac{\zeta l}{S},
+\end{equation}
+
+Upor lahko zelo natan\v cno merimo z Wheatstonovim mostom, na katerem
+primerjamo napetosti v dveh tokovnih vejah elektri\v cnega kroga. Slika 1
+prikazuje shemo Wheatstonovega mostu uporabljenega pri tej vaji.
+
+
+Veja AB je narejena iz enakomerno debele uporovne \v zice, s prilagajanjem
+dol\v zine a pa lahko dolo\v cimo polo\v zaj, ko v veji CD ni toka. V tem polo\v zaju velja enakost iz ena\v cbe (3), pri \v cemer je $R$ znan upor, $l$ pa dol\v zina uporovne \v zice.\\
+
+Iz enačbe $R_1$/$R_2$ = $R_3$/$R_4$ lahko izračunamo enega od uporov, če so drugi trije znani.\\
+
+\begin{equation}
+R_x = R_0 \frac{a}{l-a}
+\end{equation}
+
+
+\section{Naloga}
+
+Izmeri upora danega upornika in žice. Izračunaj specifični upor žice!\\
+
+\section{Potrebščine}
+1. Ravnilo z merilno žico in drsnikom,\\
+2. usmernik 2 V,\\
+3. uporovna dekada,\\
+4. ampermeter,\\
+5. 8 žic z bananami,\\\
+6. merjenca: upornik in žica.\\
+
+\section{Navodilo}\\
+Zveži priložene, elemente po zgornji shemi! Na mesto $R_x$ vežeš neznani upornik. Drsnik nastavi na sredo merilne žice! pri tej legi drsnika vključi ampermeter AM, ki naj bo nastavljen na največjo vrednost toka (2A) in izberi tak upor $R_0$, da je tok skozi AM najmanjši. Nato poišči ničelno točko. Kontroliraj lego drsnika še pri večji občutljivosti AM in poišči ničelno lego bolj natančno. Preberi lego jezička in oceni natančnost lege z majhnim premikanjem jezička sem in tja. Zamenjaj sedaj uporovno dekado in merjeni upor.Če je bila ničelna točka prej pri \textit{a}, bi morala biti sedaj pri \textit{l-a}. Zaradi predhodnih uporov na konceh in ker merilna žica ni povsod enakomerna, dobiš nekoliko drugačno vrednost. Izračunaj $R_x$ iz obeh meritev in poišči aritmetično sredino; to je boljši približek.\\
+Meritev ponovi z uporovno žico. Pri uporovni žici mora biti dekada nastavljena
+na nekaj ohmov. Izmeri tudi dolžino in premer žice ter izračunaj specifični upor
+uporovne žice.\\
+
+\section{Vprašanja}\\
+1. Kolikšna je relativna napaka rezultata, ki jo prinese nenatančno odčitavanje,
+če si določil lego drsnika na 0,5 mm natančno pri 1 m dolgi merilni žici?\\
+2. Kako je relativna napaka rezultata odvisna od razmerja $R_x$/$R_0$, torej od lege točke \textit{D}? Katero že omenjeno navodilo sledi iz tega?\\
+
+\section{Meritve}\\
+
+\begin{table}[h!]
+  \begin{center}
+    \caption{Dimenzije merjene žice}
+    \label{tab:table1}
+    \begin{tabular}{l|S}
+      dolžina \textit{l} [cm] & 100 \pm 0,1\\
+      premer \textit{d} [mm] & 0,05 \pm 0,05
+    \end{tabular}
+  \end{center}
+\end{table}
+
+\begin{table}[h!]   %   2.      tabela
+  \begin{center}
+    \caption{Meritve neznanega upornika}
+    \label{tab:table2}
+    \begin{tabular}{l|S|r}
+      i & R [$\Omega$] & a [cm]\\
+      \hline
+      1 & 2000 & 29,1\\
+      2 & 3000 & 38,4\\
+      3 & 4000 & 45,7\\
+      4 & 5000 & 50,9\\
+      5 & 6000 & 55,5\\
+      6 & 7000 & 59,5\\
+      7 & 8000 & 62,5       % <-- added row here
+    \end{tabular}
+  \end{center}
+\end{table}
+
+\begin{table}[h!]   %   3.       tabela
+  \begin{center}
+    \caption{Meritve upora žice}
+    \label{tab:table3}
+    \begin{tabular}{l|S|r}
+      i & R [$\Omega$] & a [cm]\\
+      \hline
+      1 & 2 & 28,1\\
+      2 & 4 & 42,1\\
+      3 & 6 & 51,7\\
+      4 & 8  & 58,6\\
+      5 & 10 & 63,6         % <-- added row here
+    \end{tabular}
+  \end{center}
+\end{table}
+
+\section{Obdelava meritev}\\
+Z uporabo enačbe (3) lahko izračunamo vrednost upora $R_x$ za vsako meritev it tabele 2. Izračuni za meritev neznanega upora:\\
+
+\begin{eqnarray}
+    R_{x} = 2000\Omega \cdot \frac{100 - 29,1}{29,1} &=& 4872,9\Omega \label{1}\\
+    R_{x} = 3000\Omega \cdot \frac{100 - 38,4}{38,4} &=& 4812,5\Omega \label{2}\\
+    R_{x} = 4000\Omega \cdot \frac{100 - 45,7}{45,7} &=& 4752,7\Omega \label{3}\\
+    R_{x} = 5000\Omega \cdot \frac{100 - 50,9}{50,9} &=& 4823,2\Omega \label{4}\\
+    R_{x} = 6000\Omega \cdot \frac{100 - 55,5}{55,5} &=& 4810,8\Omega \label{5}\\
+    R_{x} = 7000\Omega \cdot \frac{100 - 59,5}{59,5} &=& 4764,7\Omega \label{6}\\
+    R_{x} = 8000\Omega \cdot \frac{100 - 62,5}{62,5} &=& 4800\Omega \label{7}
+\end{eqnarray}
+
+Iz meritev lahko izra\v cunamo povpre\v cje in ocenimo napako meritve. Dobljena
+vrednost neznanega upora je $R_x$ = 4805,3 $\Omega$ $\pm$ 0,1 $\Omega$. Enak postopek izvedemo \v se za meritve upora \v zice. Izra\v cuni za meritve upora \v zice:\\
+
+\begin{eqnarray}
+    R_{x} = 2\Omega \cdot \frac{100 - 28,1}{28,1} &=& 5,1\Omega \label{1}\\
+    R_{x} = 4\Omega \cdot \frac{100 - 42,1}{42,1} &=& 5,5\Omega \label{2}\\
+    R_{x} = 6\Omega \cdot \frac{100 - 51,7}{51,7} &=& 5,6\Omega \label{3}\\
+    R_{x} = 8\Omega \cdot \frac{100 - 58,6}{58,6} &=& 5,6\Omega \label{4}\\
+    R_{x} = 10\Omega \cdot \frac{100 - 63,6}{63,6} &=& 5,7\Omega \label{5}
+\end{eqnarray}
+
+Iz izračunenega povprečja in ocenjene napake je upor žice enak $R_x$ = 5,52 $\pm$ 0,1 $\Omega$. Iz dobljenega rezultata lahko izračunamo še specifični upor žice, ki je enak $\zeta$ = 4,3 $\cdot$ $10^{-2}$ $\Ohm$ $mm^2$ $m^{-1}$
+
+
+\section{Analiza rezultatov}
+Z uporabo Wheatstonovega mostu smo uspešno določili neznani upor in specifični upor dane žice. končni rezultati imajo relativno majhne napake, ki so posledica dobre izbire znanih uporov. Če se pri izbiri znanega upora $R,$ ta zelo razlikuje od neznanega upora $R_x$ nam to da večjo relativno napako, saj se ena izmed vrednosti a oz. l−a pribli\v zuje ni\v cli, kar pomeni, da relativna napaka raste. Za dosego natan\v cnih meritev je tako pomembno, da
+je $R_x$ /$R$ $\approx$ 1\\
+
+
+\end{document}

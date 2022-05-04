@@ -1,0 +1,127 @@
+\documentclass[12pt]{article}
+
+%opening
+\title{Vaja 47 - SILA MED PLOŠČICAMA KONDENZATORJA}
+\author{Jure Kozamernik}
+\usepackage{mathtools}
+\usepackage{amsmath, amsfonts,amssymb, amsthm}
+\usepackage{float}
+\usepackage[utf8]{inputenc}
+\usepackage{siunitx,booktabs}
+\usepackage[skip=0.333\baselineskip]{caption}
+\usepackage{tabularx}
+\newcolumntype{C}{>{\centering\arraybackslash $}X<{$}}
+\usepackage{geometry}
+\usepackage[a4paper]{geometry}
+\usepackage[slovene]{babel}
+
+\begin{document}
+
+\maketitle
+
+\section{Uvod}
+Zaradi električnih privlačnih sil med nasprotnima nabojema se elektrodi kondenzatorja privlačita. To si ogledamo pri ploščatem kondenzatorju, ki ima plošči s ploščino S v razmiku d. Kapaciteta kondenzatorja je tedaj C = $\varepsilon_0$S/d. Pritisk na plošči se izrazi kot odziv napetosti U [V]. Sila F med ploščama je enaka produktu naboja na prvi plošči in poljske jakosti, ki bi jo dobili samo z nabojem na drugi plošči.
+
+\begin{equation}
+  F = e_1 E_2
+\end{equation}
+
+Upoštevamo,
+
+\begin{equation}
+  e_1 = CU \;\; E_2 = U/2d.
+\end{equation}
+
+Izrazimo silo, ki deluje na ploščino kondenzatorja kot
+
+\begin{equation}
+  F = \frac{CU^2}{2d} = \frac{\varepsilon_0 SU^2}{2d^2}.
+\end{equation}   
+
+Sila je sorazmerna s kvadratom napetosti, ne glede na obliko elektrod. V statičnih voltmetrih za merjenje napetosti izkoriščamo silo med elektrodama.\\
+
+\newpage
+\section{Potrebščine}
+\begin{itemize}
+\item Tehtnica s kondenzatorskima ploščama,
+\item usmernik za 2000 V,
+\item voltmeter,
+\item 2 žici z bananami
+\end{itemize}
+
+\section{Naloga}
+Izmeri silo med ploščama danega kondenzatorja v odvisnosti od napetosti in določi električno konstanto!\\
+
+\section*{Navodilo}
+
+Z gumbom na usmerniku spreminjamo napetost na kondenzatorju ter jo odčitavamo s pomočjo voltmetra (odčitavamo 100-krat manjšo napetost). Na drugo stran tehtnice, ki uravnoveša zgornjo ploščo kondenzatorja, postavimo uteži in napetost spreminjamo, dokler se tehtnica ne prevesi na stran uteži. Takrat je sila na kondenzatorju malce manjša od znane sile teže na drugi strani tehtnice.
+
+
+%   Od tu naprej vpisuješ podatke
+\newpage
+\section{Meritve}
+
+\[                                  %       Prva tabla
+  \begin{array}{|c|c|c|c|} \hline
+    masa[g] &  Meritve \;\ U_{1} & U_{2} & U_{3} [10^2 \cdot V]\\ \hline 
+  0.2 & 4.89 &  5.65 &  5.65\\
+  0.4 & 8.35 &  8.66 &  8.40\\
+  0.6 & 10.32 &  11.06 &  10.80\\
+  0.8 & 11.90 &  12.50 &  12.60\\
+  1.0 & 13.50  & 14.00 &  13.20\\
+  1.2 & 14.90 &  15.20 &    14.48\\
+  1.4 & 15.84 &  15.42 &    15.90\\
+  1.6 & 16.52 &  17.20 &    17.10\\
+  1.8 & 18.00 &  18.30 &    18.60\\
+  2.0 & 19.90 &  20.02 &    20.10\\ \hline
+\end{array}
+\]
+
+Iz izmerjenih podatkov smo izračunali sledeče povprečne vrednosti:
+
+\[                                  %       Druga tabela
+  \begin{array}{|c|c|c|} \hline
+    \overline{U} [10^{2} \cdot V] & napaka \pm & sila [N] \\ \hline
+  5,4 &  0.3 &  0.0020\\
+  8,5 &  0.1 &  0.0039\\
+  10,7 &  0.3 &  0.0059\\
+  12,3 &  0.3 &  0.0078\\
+  13,6 &  0.3 &  0.0098\\
+  14,9 &  0.3 &  0.0118\\
+  15,7 &  0.2 &  0.0137\\
+  16,9 &  0.2 &  0.0157 \\ \hline
+\end{array}
+\]
+
+\begin{figure}
+  \includegraphics[width=\textwidth]{Vaja 44-47/Figure_1 (vaja47).png}
+  \caption{$F(U^2)$ s pripadajočo premico}
+  \label{fig:1}
+\end{figure}
+
+Iz naklona premice smo po formuli:
+
+\begin{equation}
+  \varepsilon_0 = k \frac{S}{2d^2}
+\end{equation}
+
+kjer je $k = F/U^2$, izračunali vrednost električno konstanto.
+
+\[ \varepsilon_{0, merjen} = 9.93 \cdot 10^{-12} \;\frac{F}{m} \pm 3.89 \cdot 10^{-12} \;\ \frac{F}{m} \]
+
+odstopanje za \[\pm  1.08 \cdot 10^{-12} \;\ \frac{F}{m} \] od teoretične vrednosti in je v intervalu napake.
+
+\[\varepsilon_{0\,teoretičen} = (c^2 \mu_0)^{-1} = 8.85 \cdot 10^{-12} \;\frac{F}{m}\]
+
+\newpage
+\section*{Razdalja med ploščama kondenzatorja - dodatek}
+
+Z uporabo enačbe iz uvoda lahko s pomočjo dobro poznanega $\varepsilon_0$ (po definiciji) tudi bolj natančno določimo $d$, ki ga je s kljunastim merilom relativno težko natančno izmeriti. Uporabim
+o zvezo: 
+\[\frac{U^2}{2F} \epsilon_0 S = d^2\].
+In pridobimo vrednosti:
+\[ d_{merjen} = 0.51 cm \pm 0.01 cm \] 
+\[ d_{izračunan} = 0.68 cm \pm 0.07 cm \]
+
+
+\end{document}

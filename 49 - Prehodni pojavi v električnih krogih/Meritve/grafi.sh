@@ -13,13 +13,13 @@ plot 'praznjenje.txt' ps 2, f(x) lw 3
 
 set output "polnjenje.png"
 tao = 1
-f(x) = 3.2*(1-exp(-(x/1000)/tao))
+f(x) = 3.2*(1-exp(-(x)/tao))
 fit f(x) 'polnjenje.txt' u 1:2 via tao
 plot 'polnjenje.txt' ps 2, f(x) lw 3
 
 
 set output 'dusenje.png'
 b = 1
-f(x) = 15*exp(-(x-3)*b/1000)
+f(x) = 15*exp(-(x)*b)
 fit f(x) 'dusenje.txt' u 1:2 via b
 plot 'dusenje.txt' ps 2, f(x) lw 3

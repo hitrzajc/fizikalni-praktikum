@@ -1,0 +1,1417 @@
+
+
+*******************************************************************************
+Tue May 24 22:01:45 2022
+
+
+FIT:    data read from 'praznjenje.txt' u 1:2
+        format = x:z
+BREAK: No data to fit
+
+*******************************************************************************
+Tue May 24 22:02:04 2022
+
+
+FIT:    data read from 'praznjenje.txt' u 1:2
+        format = x:z
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = U0*exp(-1/tao)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   U0            tao          
+   0 1.0949585345e+02   0.00e+00  5.88e+00    1.600000e+01   1.000000e+00
+   3 1.0400000000e+02  -2.05e-04  5.88e-03    1.477448e+01   9.229663e-01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 104
+rel. change during last iteration : -2.05359e-09
+
+degrees of freedom    (FIT_NDF)                        : 5
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 4.5607
+variance of residuals (reduced chisquare) = WSSR/ndf   : 20.8
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+U0              = 14.7745          +/- 8.902e+16    (6.025e+17%)
+tao             = 0.922966         +/- 5.135e+15    (5.563e+17%)
+
+correlation matrix of the fit parameters:
+                U0     tao    
+U0              1.000 
+tao            -1.000  1.000 
+
+
+*******************************************************************************
+Tue May 24 22:02:24 2022
+
+
+FIT:    data read from 'praznjenje.txt' u 1:2
+        format = x:z
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = U0*exp(-1/tao)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   U0            tao          
+   0 1.0949585345e+02   0.00e+00  5.88e+00    1.600000e+01   1.000000e+00
+   3 1.0400000000e+02  -2.05e-04  5.88e-03    1.477448e+01   9.229663e-01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 104
+rel. change during last iteration : -2.05359e-09
+
+degrees of freedom    (FIT_NDF)                        : 5
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 4.5607
+variance of residuals (reduced chisquare) = WSSR/ndf   : 20.8
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+U0              = 14.7745          +/- 8.902e+16    (6.025e+17%)
+tao             = 0.922966         +/- 5.135e+15    (5.563e+17%)
+
+correlation matrix of the fit parameters:
+                U0     tao    
+U0              1.000 
+tao            -1.000  1.000 
+
+
+*******************************************************************************
+Tue May 24 22:03:35 2022
+
+
+FIT:    data read from 'praznjenje.txt' u 1:2
+        format = x:z
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = 16*exp(-1/tao)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   U0            tao          
+   0 1.0949585345e+02   0.00e+00  4.16e+00    1.000000e+00   1.000000e+00
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Tue May 24 22:03:45 2022
+
+
+FIT:    data read from 'praznjenje.txt' u 1:2
+        format = x:z
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = 16*exp(-1/tao)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   tao          
+   0 1.0949585345e+02   0.00e+00  5.88e+00    1.000000e+00
+   3 1.0400000000e+02  -2.67e-04  5.88e-03    8.597338e-01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 104
+rel. change during last iteration : -2.67e-09
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 4.16333
+variance of residuals (reduced chisquare) = WSSR/ndf   : 17.3333
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+tao             = 0.859734         +/- 0.2327       (27.07%)
+
+
+*******************************************************************************
+Tue May 24 22:06:06 2022
+
+
+FIT:    data read from 'praznjenje.txt' u 1:2
+        format = x:z
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = 16*exp(-1/tao)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   tao          
+   0 1.0949585345e+02   0.00e+00  5.88e+00    1.000000e+00
+   3 1.0400000000e+02  -2.67e-04  5.88e-03    8.597338e-01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 104
+rel. change during last iteration : -2.67e-09
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 4.16333
+variance of residuals (reduced chisquare) = WSSR/ndf   : 17.3333
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+tao             = 0.859734         +/- 0.2327       (27.07%)
+
+
+*******************************************************************************
+Tue May 24 22:06:14 2022
+
+
+FIT:    data read from 'praznjenje.txt' u 1:2
+        format = x:z
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = 16*exp(-1/tao)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   tao          
+   0 1.0949585345e+02   0.00e+00  5.88e+00    1.000000e+00
+   3 1.0400000000e+02  -2.67e-04  5.88e-03    8.597338e-01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 104
+rel. change during last iteration : -2.67e-09
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 4.16333
+variance of residuals (reduced chisquare) = WSSR/ndf   : 17.3333
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+tao             = 0.859734         +/- 0.2327       (27.07%)
+
+
+*******************************************************************************
+Tue May 24 22:09:49 2022
+
+
+FIT:    data read from 'praznjenje.txt' u 1:2
+        format = x:z
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = 16*exp(-1/tao)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   tao          
+   0 1.0400000000e+02   0.00e+00  5.81e+00    8.597340e-01
+   1 1.0400000000e+02  -1.99e-08  5.81e-01    8.597338e-01
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 104
+rel. change during last iteration : -1.99499e-13
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 4.16333
+variance of residuals (reduced chisquare) = WSSR/ndf   : 17.3333
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+tao             = 0.859734         +/- 0.2327       (27.07%)
+
+
+*******************************************************************************
+Tue May 24 22:14:17 2022
+
+
+FIT:    data read from 'praznjenje.txt' u 1:2
+        format = x:z
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = 16*exp(-x/tao)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   tao          
+   0 9.0594444675e+02   0.00e+00  3.03e-01    8.597340e-01
+  22 1.9693967977e+01  -2.10e-01  3.03e-02    6.498842e-03
+
+After 22 iterations the fit converged.
+final sum of squares of residuals : 19.694
+rel. change during last iteration : -2.10173e-06
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.81172
+variance of residuals (reduced chisquare) = WSSR/ndf   : 3.28233
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+tao             = 0.00649884       +/- 0.001114     (17.15%)
+
+
+*******************************************************************************
+Tue May 24 22:14:58 2022
+
+
+FIT:    data read from 'praznjenje.txt' u 1:2
+        format = x:z
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = 12*exp(-x/tao)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   tao          
+   0 4.2283899222e+02   0.00e+00  2.27e-01    8.597340e-01
+  53 3.1783452920e-01  -2.11e-02  2.27e-02    9.217806e-03
+
+After 53 iterations the fit converged.
+final sum of squares of residuals : 0.317835
+rel. change during last iteration : -2.1125e-07
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.230157
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0529724
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+tao             = 0.00921781       +/- 0.0002551    (2.768%)
+
+
+*******************************************************************************
+Tue May 24 22:15:32 2022
+
+
+FIT:    data read from 'praznjenje.txt' u 1:2
+        format = x:z
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = 12*exp(-x/tao)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   tao          
+   0 4.2283899222e+02   0.00e+00  2.27e-01    8.597340e-01
+  53 3.1783452920e-01  -2.11e-02  2.27e-02    9.217806e-03
+
+After 53 iterations the fit converged.
+final sum of squares of residuals : 0.317835
+rel. change during last iteration : -2.1125e-07
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.230157
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0529724
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+tao             = 0.00921781       +/- 0.0002551    (2.768%)
+
+
+*******************************************************************************
+Tue May 24 22:15:39 2022
+
+
+FIT:    data read from 'praznjenje.txt' u 1:2
+        format = x:z
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = 12*exp(-x/tao)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   tao          
+   0 4.2283899222e+02   0.00e+00  2.27e-01    8.597340e-01
+  53 3.1783452920e-01  -2.11e-02  2.27e-02    9.217806e-03
+
+After 53 iterations the fit converged.
+final sum of squares of residuals : 0.317835
+rel. change during last iteration : -2.1125e-07
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.230157
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0529724
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+tao             = 0.00921781       +/- 0.0002551    (2.768%)
+
+
+*******************************************************************************
+Tue May 24 22:17:02 2022
+
+
+FIT:    data read from 'praznjenje.txt' u 1:2
+        format = x:z
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = 12*exp(-x/tao)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   tao          
+   0 4.2283899222e+02   0.00e+00  2.27e-01    8.597340e-01
+  53 3.1783452920e-01  -2.11e-02  2.27e-02    9.217806e-03
+
+After 53 iterations the fit converged.
+final sum of squares of residuals : 0.317835
+rel. change during last iteration : -2.1125e-07
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.230157
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0529724
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+tao             = 0.00921781       +/- 0.0002551    (2.768%)
+
+
+*******************************************************************************
+Tue May 24 22:17:12 2022
+
+
+FIT:    data read from 'praznjenje.txt' u 1:2
+        format = x:z
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = 12*exp(-x/tao)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   tao          
+   0 4.2283899222e+02   0.00e+00  2.27e-01    8.597340e-01
+  53 3.1783452920e-01  -2.11e-02  2.27e-02    9.217806e-03
+
+After 53 iterations the fit converged.
+final sum of squares of residuals : 0.317835
+rel. change during last iteration : -2.1125e-07
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.230157
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0529724
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+tao             = 0.00921781       +/- 0.0002551    (2.768%)
+
+
+*******************************************************************************
+Tue May 24 22:17:19 2022
+
+
+FIT:    data read from 'praznjenje.txt' u 1:2
+        format = x:z
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = 12*exp(-x/tao)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   tao          
+   0 4.2283899222e+02   0.00e+00  2.27e-01    8.597340e-01
+  53 3.1783452920e-01  -2.11e-02  2.27e-02    9.217806e-03
+
+After 53 iterations the fit converged.
+final sum of squares of residuals : 0.317835
+rel. change during last iteration : -2.1125e-07
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.230157
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0529724
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+tao             = 0.00921781       +/- 0.0002551    (2.768%)
+
+
+*******************************************************************************
+Tue May 24 22:18:24 2022
+
+
+FIT:    data read from 'praznjenje.txt' u 1:2
+        format = x:z
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = 12*exp(-x/tao)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   tao          
+   0 4.2283899222e+02   0.00e+00  2.27e-01    8.597340e-01
+  53 3.1783452920e-01  -2.11e-02  2.27e-02    9.217806e-03
+
+After 53 iterations the fit converged.
+final sum of squares of residuals : 0.317835
+rel. change during last iteration : -2.1125e-07
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.230157
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0529724
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+tao             = 0.00921781       +/- 0.0002551    (2.768%)
+
+
+*******************************************************************************
+Tue May 24 22:18:34 2022
+
+
+FIT:    data read from 'praznjenje.txt' u 1:2
+        format = x:z
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = 12*exp(-x/tao)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   tao          
+   0 4.2283899222e+02   0.00e+00  2.27e-01    8.597340e-01
+  53 3.1783452920e-01  -2.11e-02  2.27e-02    9.217806e-03
+
+After 53 iterations the fit converged.
+final sum of squares of residuals : 0.317835
+rel. change during last iteration : -2.1125e-07
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.230157
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0529724
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+tao             = 0.00921781       +/- 0.0002551    (2.768%)
+
+
+*******************************************************************************
+Tue May 24 22:18:36 2022
+
+
+FIT:    data read from 'praznjenje.txt' u 1:2
+        format = x:z
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = 12*exp(-x/tao)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   tao          
+   0 4.2283899222e+02   0.00e+00  2.27e-01    8.597340e-01
+  53 3.1783452920e-01  -2.11e-02  2.27e-02    9.217806e-03
+
+After 53 iterations the fit converged.
+final sum of squares of residuals : 0.317835
+rel. change during last iteration : -2.1125e-07
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.230157
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0529724
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+tao             = 0.00921781       +/- 0.0002551    (2.768%)
+
+
+*******************************************************************************
+Tue May 24 22:19:00 2022
+
+
+FIT:    data read from 'praznjenje.txt' u 1:2
+        format = x:z
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = 12*exp(-x/tao)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   tao          
+   0 4.2614205888e+02   0.00e+00  1.96e-01    1.000000e+00
+  38 3.1783452884e-01  -1.57e-10  1.96e+05    9.217794e-03
+
+After 38 iterations the fit converged.
+final sum of squares of residuals : 0.317835
+rel. change during last iteration : -1.57189e-15
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.230157
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0529724
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+tao             = 0.00921779       +/- 0.0002551    (2.768%)
+
+
+*******************************************************************************
+Tue May 24 22:22:05 2022
+
+
+FIT:    data read from 'praznjenje.txt' u 1:2
+        format = x:z
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = 12*exp(-x/tao)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   tao          
+   0 4.2614205888e+02   0.00e+00  1.96e-01    1.000000e+00
+  38 3.1783452884e-01  -1.57e-10  1.96e+05    9.217794e-03
+
+After 38 iterations the fit converged.
+final sum of squares of residuals : 0.317835
+rel. change during last iteration : -1.57189e-15
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.230157
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0529724
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+tao             = 0.00921779       +/- 0.0002551    (2.768%)
+
+
+*******************************************************************************
+Tue May 24 22:22:13 2022
+
+
+FIT:    data read from 'praznjenje.txt' u 1:2
+        format = x:z
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = 12*exp(-x/tao)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   tao          
+   0 4.2614205888e+02   0.00e+00  1.96e-01    1.000000e+00
+  38 3.1783452884e-01  -1.57e-10  1.96e+05    9.217794e-03
+
+After 38 iterations the fit converged.
+final sum of squares of residuals : 0.317835
+rel. change during last iteration : -1.57189e-15
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.230157
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0529724
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+tao             = 0.00921779       +/- 0.0002551    (2.768%)
+
+
+*******************************************************************************
+Tue May 24 22:22:24 2022
+
+
+FIT:    data read from 'praznjenje.txt' u 1:2
+        format = x:z
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = 12*exp(-x/tao)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   tao          
+   0 4.2614205888e+02   0.00e+00  1.96e-01    1.000000e+00
+  38 3.1783452884e-01  -1.57e-10  1.96e+05    9.217794e-03
+
+After 38 iterations the fit converged.
+final sum of squares of residuals : 0.317835
+rel. change during last iteration : -1.57189e-15
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.230157
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0529724
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+tao             = 0.00921779       +/- 0.0002551    (2.768%)
+
+
+*******************************************************************************
+Tue May 24 22:23:21 2022
+
+
+FIT:    data read from 'praznjenje.txt' u 1:2
+        format = x:z
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = 12*exp(-x/tao)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   tao          
+   0 4.2614205888e+02   0.00e+00  1.96e-01    1.000000e+00
+  38 3.1783452884e-01  -1.57e-10  1.96e+05    9.217794e-03
+
+After 38 iterations the fit converged.
+final sum of squares of residuals : 0.317835
+rel. change during last iteration : -1.57189e-15
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.230157
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0529724
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+tao             = 0.00921779       +/- 0.0002551    (2.768%)
+
+
+*******************************************************************************
+Tue May 24 22:26:04 2022
+
+
+FIT:    data read from 'praznjenje.txt' u 1:2
+        format = x:z
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = 12*exp(-x/tao)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   tao          
+   0 4.2614205888e+02   0.00e+00  1.96e-01    1.000000e+00
+  38 3.1783452884e-01  -1.57e-10  1.96e+05    9.217794e-03
+
+After 38 iterations the fit converged.
+final sum of squares of residuals : 0.317835
+rel. change during last iteration : -1.57189e-15
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.230157
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0529724
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+tao             = 0.00921779       +/- 0.0002551    (2.768%)
+
+
+*******************************************************************************
+Tue May 24 22:26:22 2022
+
+
+FIT:    data read from 'praznjenje.txt' u 1:2
+        format = x:z
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = 12*exp(-x/tao)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   tao          
+   0 4.2614205888e+02   0.00e+00  1.96e-01    1.000000e+00
+  38 3.1783452884e-01  -1.57e-10  1.96e+05    9.217794e-03
+
+After 38 iterations the fit converged.
+final sum of squares of residuals : 0.317835
+rel. change during last iteration : -1.57189e-15
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.230157
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0529724
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+tao             = 0.00921779       +/- 0.0002551    (2.768%)
+
+
+*******************************************************************************
+Tue May 24 22:31:05 2022
+
+
+FIT:    data read from 'praznjenje.txt' u 1:2
+        format = x:z
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = 12*exp(-x/tao)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   tao          
+   0 4.3153551204e+02   0.00e+00  1.96e-01    1.000000e+00
+  35 2.5088023930e-01  -4.89e-03  1.96e-02    9.056856e-03
+
+After 35 iterations the fit converged.
+final sum of squares of residuals : 0.25088
+rel. change during last iteration : -4.88912e-08
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.204483
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0418134
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+tao             = 0.00905686       +/- 0.0002231    (2.463%)
+
+
+*******************************************************************************
+Tue May 24 22:35:25 2022
+
+
+FIT:    data read from 'praznjenje.txt' u 1:2
+        format = x:z
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = 12*exp(-(x/1000)/tao)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   tao          
+   0 1.7635917924e+04   0.00e+00  2.42e-01    1.000000e+00
+   4 1.7604275525e+04  -5.68e-02  2.42e-05    1.223307e+03
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 17604.3
+rel. change during last iteration : -5.67629e-07
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 54.1668
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2934.05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+tao             = 1223.31          +/- 1.225e+08    (1.002e+07%)
+
+
+*******************************************************************************
+Tue May 24 22:47:19 2022
+
+
+FIT:    data read from 'praznjenje.txt' u 1:2
+        format = x:z
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = 12*exp(-(x/1000)/tao)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   tao          
+   0 4.5246850735e+02   0.00e+00  2.01e-04    1.000000e+00
+  22 2.5088023930e-01  -1.62e-07  2.01e+05    9.056859e-06
+
+After 22 iterations the fit converged.
+final sum of squares of residuals : 0.25088
+rel. change during last iteration : -1.6159e-12
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.204483
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0418134
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+tao             = 9.05686e-06      +/- 2.231e-07    (2.463%)
+
+
+*******************************************************************************
+Tue May 24 22:47:19 2022
+
+
+FIT:    data read from 'polnjenje.txt' u 1:2
+        format = x:z
+        #datapoints = 6
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = 12*(1-exp(-x/tao))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   tao          
+   0 2.5404926109e+02   0.00e+00  2.38e+00    1.000000e+00
+   6 6.3429559506e+00  -9.46e-01  2.38e-06    1.140768e+01
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 6.34296
+rel. change during last iteration : -9.46004e-06
+
+degrees of freedom    (FIT_NDF)                        : 5
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.12632
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.26859
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+tao             = 11.4077          +/- 2.973        (26.06%)
+
+
+*******************************************************************************
+Tue May 24 22:48:44 2022
+
+
+FIT:    data read from 'praznjenje.txt' u 1:2
+        format = x:z
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = 12*exp(-(x/1000)/tao)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   tao          
+   0 4.5246850735e+02   0.00e+00  2.01e-04    1.000000e+00
+  22 2.5088023930e-01  -1.62e-07  2.01e+05    9.056859e-06
+
+After 22 iterations the fit converged.
+final sum of squares of residuals : 0.25088
+rel. change during last iteration : -1.6159e-12
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.204483
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0418134
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+tao             = 9.05686e-06      +/- 2.231e-07    (2.463%)
+
+
+*******************************************************************************
+Tue May 24 22:48:44 2022
+
+
+FIT:    data read from 'polnjenje.txt' u 1:2
+        format = x:z
+        #datapoints = 6
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = 12*(1-exp(-x/tao))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   tao          
+   0 2.6268271968e+02   0.00e+00  2.97e+00    1.000000e+00
+   7 4.2012817093e+00  -7.21e-03  2.97e-07    9.933094e+00
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 4.20128
+rel. change during last iteration : -7.20559e-08
+
+degrees of freedom    (FIT_NDF)                        : 5
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.916655
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.840256
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+tao             = 9.93309          +/- 1.789        (18.01%)
+
+
+*******************************************************************************
+Tue May 24 22:49:18 2022
+
+
+FIT:    data read from 'praznjenje.txt' u 1:2
+        format = x:z
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = 12*exp(-(x/1000)/tao)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   tao          
+   0 4.5246850735e+02   0.00e+00  2.01e-04    1.000000e+00
+  22 2.5088023930e-01  -1.62e-07  2.01e+05    9.056859e-06
+
+After 22 iterations the fit converged.
+final sum of squares of residuals : 0.25088
+rel. change during last iteration : -1.6159e-12
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.204483
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0418134
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+tao             = 9.05686e-06      +/- 2.231e-07    (2.463%)
+
+
+*******************************************************************************
+Tue May 24 22:49:18 2022
+
+
+FIT:    data read from 'polnjenje.txt' u 1:2
+        format = x:z
+        #datapoints = 6
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = 4.2*(1-exp(-x/tao))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   tao          
+   0 2.7813023462e+00   0.00e+00  1.04e+00    1.000000e+00
+   6 1.2537575521e+00  -5.64e-01  1.04e-06    1.709998e+00
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 1.25376
+rel. change during last iteration : -5.63919e-06
+
+degrees of freedom    (FIT_NDF)                        : 5
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.500751
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.250752
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+tao             = 1.71             +/- 0.2971       (17.37%)
+
+
+*******************************************************************************
+Tue May 24 22:49:42 2022
+
+
+FIT:    data read from 'praznjenje.txt' u 1:2
+        format = x:z
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = 12*exp(-(x/1000)/tao)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   tao          
+   0 4.5246850735e+02   0.00e+00  2.01e-04    1.000000e+00
+  22 2.5088023930e-01  -1.62e-07  2.01e+05    9.056859e-06
+
+After 22 iterations the fit converged.
+final sum of squares of residuals : 0.25088
+rel. change during last iteration : -1.6159e-12
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.204483
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0418134
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+tao             = 9.05686e-06      +/- 2.231e-07    (2.463%)
+
+
+*******************************************************************************
+Tue May 24 22:49:42 2022
+
+
+FIT:    data read from 'polnjenje.txt' u 1:2
+        format = x:z
+        #datapoints = 6
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = 3.2*(1-exp(-x/tao))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   tao          
+   0 3.0873101411e-01   0.00e+00  7.91e-01    1.000000e+00
+   4 9.3288347022e-02  -2.90e-01  7.91e-05    7.716667e-01
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 0.0932883
+rel. change during last iteration : -2.90499e-06
+
+degrees of freedom    (FIT_NDF)                        : 5
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.136593
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0186577
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+tao             = 0.771667         +/- 0.05871      (7.608%)
+
+
+*******************************************************************************
+Tue May 24 22:53:25 2022
+
+
+FIT:    data read from 'praznjenje.txt' u 1:2
+        format = x:z
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = 12*exp(-(x)/tao)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   tao          
+   0 4.3153551204e+02   0.00e+00  1.96e-01    1.000000e+00
+  35 2.5088023930e-01  -4.89e-03  1.96e-02    9.056856e-03
+
+After 35 iterations the fit converged.
+final sum of squares of residuals : 0.25088
+rel. change during last iteration : -4.88912e-08
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.204483
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0418134
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+tao             = 0.00905686       +/- 0.0002231    (2.463%)
+
+
+*******************************************************************************
+Tue May 24 22:53:25 2022
+
+
+FIT:    data read from 'polnjenje.txt' u 1:2
+        format = x:z
+        #datapoints = 6
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = 3.2*(1-exp(-x/tao))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   tao          
+   0 3.0873101411e-01   0.00e+00  7.91e-01    1.000000e+00
+   4 9.3288347022e-02  -2.90e-01  7.91e-05    7.716667e-01
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 0.0932883
+rel. change during last iteration : -2.90499e-06
+
+degrees of freedom    (FIT_NDF)                        : 5
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.136593
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0186577
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+tao             = 0.771667         +/- 0.05871      (7.608%)
+
+
+*******************************************************************************
+Tue May 24 22:54:45 2022
+
+
+FIT:    data read from 'praznjenje.txt' u 1:2
+        format = x:z
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = 12*exp(-(x)/tao)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   tao          
+   0 4.3153551204e+02   0.00e+00  1.96e-01    1.000000e+00
+  35 2.5088023930e-01  -4.89e-03  1.96e-02    9.056856e-03
+
+After 35 iterations the fit converged.
+final sum of squares of residuals : 0.25088
+rel. change during last iteration : -4.88912e-08
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.204483
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0418134
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+tao             = 0.00905686       +/- 0.0002231    (2.463%)
+
+
+*******************************************************************************
+Tue May 24 22:54:45 2022
+
+
+FIT:    data read from 'polnjenje.txt' u 1:2
+        format = x:z
+        #datapoints = 6
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = 3.2*(1-exp(-(x/1000)/tao))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   tao          
+   0 3.9289642012e+01   0.00e+00  7.68e-03    1.000000e+00
+  47 9.3288333809e-02  -1.45e-01  7.68e-05    7.716309e-04
+
+After 47 iterations the fit converged.
+final sum of squares of residuals : 0.0932883
+rel. change during last iteration : -1.44689e-06
+
+degrees of freedom    (FIT_NDF)                        : 5
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.136593
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0186577
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+tao             = 0.000771631      +/- 5.871e-05    (7.608%)
+
+
+*******************************************************************************
+Tue May 24 23:21:52 2022
+
+
+FIT:    data read from 'praznjenje.txt' u 1:2
+        format = x:z
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = 12*exp(-(x)/tao)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   tao          
+   0 4.3153551204e+02   0.00e+00  1.96e-01    1.000000e+00
+  35 2.5088023930e-01  -4.89e-03  1.96e-02    9.056856e-03
+
+After 35 iterations the fit converged.
+final sum of squares of residuals : 0.25088
+rel. change during last iteration : -4.88912e-08
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.204483
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0418134
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+tao             = 0.00905686       +/- 0.0002231    (2.463%)
+
+
+*******************************************************************************
+Tue May 24 23:21:52 2022
+
+
+FIT:    data read from 'polnjenje.txt' u 1:2
+        format = x:z
+        #datapoints = 6
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = 3.2*(1-exp(-(x/1000)/tao))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   tao          
+   0 3.9289642012e+01   0.00e+00  7.68e-03    1.000000e+00
+  47 9.3288333809e-02  -1.45e-01  7.68e-05    7.716309e-04
+
+After 47 iterations the fit converged.
+final sum of squares of residuals : 0.0932883
+rel. change during last iteration : -1.44689e-06
+
+degrees of freedom    (FIT_NDF)                        : 5
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.136593
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0186577
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+tao             = 0.000771631      +/- 5.871e-05    (7.608%)
+
+
+*******************************************************************************
+Tue May 24 23:21:52 2022
+
+
+FIT:    data read from 'dusenje.txt' u 1:2
+        format = x:z
+        #datapoints = 9
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = 15*exp(-x*b)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   b            
+   0 4.9709142787e+02   0.00e+00  7.46e-01    1.000000e+00
+  12 9.0761514925e+00  -2.35e-02  7.46e-04    6.127709e-02
+
+After 12 iterations the fit converged.
+final sum of squares of residuals : 9.07615
+rel. change during last iteration : -2.34737e-07
+
+degrees of freedom    (FIT_NDF)                        : 8
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.06514
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.13452
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+b               = 0.0612771        +/- 0.004553     (7.431%)
+
+
+*******************************************************************************
+Tue May 24 23:23:13 2022
+
+
+FIT:    data read from 'praznjenje.txt' u 1:2
+        format = x:z
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = 12*exp(-(x)/tao)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   tao          
+   0 4.3153551204e+02   0.00e+00  1.96e-01    1.000000e+00
+  35 2.5088023930e-01  -4.89e-03  1.96e-02    9.056856e-03
+
+After 35 iterations the fit converged.
+final sum of squares of residuals : 0.25088
+rel. change during last iteration : -4.88912e-08
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.204483
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0418134
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+tao             = 0.00905686       +/- 0.0002231    (2.463%)
+
+
+*******************************************************************************
+Tue May 24 23:23:13 2022
+
+
+FIT:    data read from 'polnjenje.txt' u 1:2
+        format = x:z
+        #datapoints = 6
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = 3.2*(1-exp(-(x/1000)/tao))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   tao          
+   0 3.9289642012e+01   0.00e+00  7.68e-03    1.000000e+00
+  47 9.3288333809e-02  -1.45e-01  7.68e-05    7.716309e-04
+
+After 47 iterations the fit converged.
+final sum of squares of residuals : 0.0932883
+rel. change during last iteration : -1.44689e-06
+
+degrees of freedom    (FIT_NDF)                        : 5
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.136593
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0186577
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+tao             = 0.000771631      +/- 5.871e-05    (7.608%)
+
+
+*******************************************************************************
+Tue May 24 23:23:13 2022
+
+
+FIT:    data read from 'dusenje.txt' u 1:2
+        format = x:z
+        #datapoints = 9
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = 15*exp(-x*b/1000)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   b            
+   0 7.7298215661e+02   0.00e+00  2.73e-01    1.000000e+00
+   5 9.0761513710e+00  -2.55e-04  2.73e-02    6.127819e+01
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 9.07615
+rel. change during last iteration : -2.55457e-09
+
+degrees of freedom    (FIT_NDF)                        : 8
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.06514
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.13452
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+b               = 61.2782          +/- 4.553        (7.431%)
+
+
+*******************************************************************************
+Tue May 24 23:23:40 2022
+
+
+FIT:    data read from 'praznjenje.txt' u 1:2
+        format = x:z
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = 12*exp(-(x)/tao)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   tao          
+   0 4.3153551204e+02   0.00e+00  1.96e-01    1.000000e+00
+  35 2.5088023930e-01  -4.89e-03  1.96e-02    9.056856e-03
+
+After 35 iterations the fit converged.
+final sum of squares of residuals : 0.25088
+rel. change during last iteration : -4.88912e-08
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.204483
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0418134
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+tao             = 0.00905686       +/- 0.0002231    (2.463%)
+
+
+*******************************************************************************
+Tue May 24 23:23:40 2022
+
+
+FIT:    data read from 'polnjenje.txt' u 1:2
+        format = x:z
+        #datapoints = 6
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = 3.2*(1-exp(-(x/1000)/tao))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   tao          
+   0 3.9289642012e+01   0.00e+00  7.68e-03    1.000000e+00
+  47 9.3288333809e-02  -1.45e-01  7.68e-05    7.716309e-04
+
+After 47 iterations the fit converged.
+final sum of squares of residuals : 0.0932883
+rel. change during last iteration : -1.44689e-06
+
+degrees of freedom    (FIT_NDF)                        : 5
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.136593
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0186577
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+tao             = 0.000771631      +/- 5.871e-05    (7.608%)
+
+
+*******************************************************************************
+Tue May 24 23:23:40 2022
+
+
+FIT:    data read from 'dusenje.txt' u 1:2
+        format = x:z
+        #datapoints = 9
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = 15*exp(-(x-3)*b/1000)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   b            
+   0 7.7964900709e+02   0.00e+00  2.35e-01    1.000000e+00
+   6 5.0488854286e-01   0.00e+00  2.35e+04    7.918545e+01
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 0.504889
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 8
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.251219
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0631111
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+b               = 79.1854          +/- 1.487        (1.878%)
